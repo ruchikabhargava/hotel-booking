@@ -1,0 +1,74 @@
+body{
+  color: #28358A;
+  font-size: 21px;
+}
+
+.main{
+  margin: auto; 
+  width: 50%; 
+  margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .main{
+    margin: auto; 
+    width: 90%; 
+    margin-top: 10%;
+  }
+  
+}
+
+input[type=number]{
+  display: inline-block;
+  width: 41px;
+  border:none;
+  text-align: center; 
+  box-shadow: none; 
+  background: none !important;
+  cursor: auto !important ;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.table{
+  border: 2px solid #7F7F7F;
+  margin-top: 10px;
+}
+
+.btn{
+  border-radius: 22px;
+  width: 33px;
+  padding: 0px;
+  font-size: 22px;
+  color: white; 
+  font-weight: bold;
+}
+
+.btn:hover,.btn:active, .btn:focus{
+  color:white;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.category{
+  font-size: 19px;
+  vertical-align: middle !important;
+  text-align: left;
+}
+
+#countCol{
+  text-align: right;
+}
+
+.addBtn{
+  background-color: #EA385C;
+}
+
+.removeBtn{
+  background-color: #28358A;
+}
